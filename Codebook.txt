@@ -1,0 +1,30 @@
+Author: Tianyuan Liu
+Version: 1.0
+__________________________________________________________________
+Unique IDs
+activity_id: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
+activity_name: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+subject_id : Identifier, identifying each subject Type: Integer Values: 1 : 30
+__________________________________________________________________
+Column names 
+tBodyAcc-XYZ.mean/std
+tGravityAcc-XYZ.mean/std
+tBodyAccJerk-XYZ.mean/std
+tBodyGyro-XYZ.mean/std
+tBodyGyroJerk-XYZ.mean/std
+tBodyAccMag.mean/std
+tGravityAccMag.mean/std
+tBodyAccJerkMag.mean/std
+tBodyGyroMag.mean/std
+tBodyGyroJerkMag.mean/std
+fBodyAcc-XYZ.mean/std
+fBodyAccJerk-XYZ.mean/std
+fBodyGyro-XYZ.mean/std
+fBodyAccMag.mean/std
+fBodyAccJerkMag.mean/std
+fBodyGyroMag.mean/std
+fBodyGyroJerkMag.mean/std
+__________________________________________________________________
+value
+mean() : mean values of multiple measurements of the original variables. Type: Real number
+std(): Standard deviation of multiple measurements of the original variables. Type: Real number
